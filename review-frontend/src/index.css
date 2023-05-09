@@ -1,0 +1,345 @@
+/* review section */
+#reviewpart{
+  margin: 0px;
+  padding: 0px;
+  font-family: poppins;
+  box-sizing: border-box;
+}
+
+#testimonials{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width:100%;
+}
+.testimonial-heading{
+  letter-spacing: 1px;
+  margin: 30px 0px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.testimonial-heading h1{
+  font-size: 2.7rem;
+  font-weight: 500;
+  color: #111010;
+  padding: 10px 20px;
+}
+.testimonial-heading span{
+  font-size: 1.3rem;
+  color: #252525;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.testimonial-box-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width:100%;
+}
+.testimonial-box{
+  width:500px;
+  box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 15px;
+  cursor: pointer;
+}
+.profile-img{
+  width:50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+.profile-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.profile{
+  display: flex;
+  align-items: center;
+}
+.name-user{
+  display: flex;
+  flex-direction: column;
+}
+.name-user strong{
+  color: #3d3d3d;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+.name-user span{
+  color: #979797;
+  font-size: 0.8rem;
+}
+.reviews{
+  color: #f9d71c;
+}
+.box-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.client-comment p{
+  font-size: 0.9rem;
+  color: #4b4b4b;
+}
+.testimonial-box:hover{
+  transform: translateY(-10px);
+  transition: all ease 0.3s;
+}
+
+@media(max-width:1060px){
+  .testimonial-box{
+      width:45%;
+      padding: 10px;
+  }
+}
+@media(max-width:790px){
+  .testimonial-box{
+      width:100%;
+  }
+  .testimonial-heading h1{
+      font-size: 1.4rem;
+  }
+}
+@media(max-width:340px){
+  .box-top{
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+  }
+  .reviews{
+      margin-top: 10px;
+  }
+}
+::selection{
+  color: #ffffff;
+  background-color: #252525;
+}
+
+
+/* all other */
+body{
+  background-color: rgb(255, 255, 255);
+}
+#cardssection {display: flex;
+text-align: center;}
+#cardssection img{width: 200px;
+margin-left: 90px;
+margin-right: 90px;
+color:aliceblue;
+
+}
+#fabbanklogo {width: 200px;}
+#loginbox{ background-color: rgba(13, 4, 22, 0); border-style:double ; border-color: white; text-align: left;  color:aliceblue; padding: 30px;}
+
+
+header a{
+    color: #4a6aa7;;
+
+}
+#outerbox {display:flex;
+   align-items: center;
+  justify-content: space-evenly;
+  background-color: #4a6aa7;
+  color:rgb(240, 240, 240);
+  
+  }
+#section2 {
+  display:flex; }
+#ModuleTwo{display: flex;
+  padding:80px;
+  }
+#leftContent
+{padding: 40px;
+}
+#rightContent{ 
+    background-size: cover;
+    padding: 150px;
+     display: grid;
+     grid-template-columns: 100%;
+     }
+   #whiteblock{ background-color: aliceblue; padding: 30px;}
+   .cardimg
+   {
+    height: 150px;
+    width:auto;
+    /* border-style: groove;
+    border-width: 15px; */
+   }
+   h1
+   {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+   .cardcontent
+   {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: bold ;
+    
+   }
+   header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(66, 155, 233);
+   }
+
+   nav a {
+    margin-left: 75px;
+    text-decoration: none;
+    font-size: large;
+    font-size: large;
+    padding: 30px;
+
+    
+   } 
+   footer{
+    align-items: center;
+    text-align: center;
+    background-color: #4a6aa7;
+    text-decoration: none;
+    padding-top: 20px;
+   }
+  a{
+    color: aliceblue;
+   }
+ .body2link
+ {color: #4a6aa7;}
+   #footerNav 
+   {font-size: 15px;
+    margin-top: 50px;
+  
+    border-right: 1px solid rgb(5, 7, 0) ;}
+   svg{margin: 5px;}
+   footer p{color:white;}
+   #leftimg
+   {
+    height: 300px;
+   }
+
+   /* -----------------------------signup style------------------------------------  */
+
+   @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.wrapper{
+  position: relative;
+  max-width: 430px;
+  width: 100%;
+  background: #fff;
+  padding: 34px;
+  border-radius: 6px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  
+}
+.wrapper h2{
+  position: relative;
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+}
+.wrapper h2::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 28px;
+  border-radius: 12px;
+  background: #4a6aa7;
+}
+.wrapper form{
+  margin-top: 30px;
+  
+}
+.wrapper form .input-box{
+  height: 52px;
+  margin: 18px 0;
+  margin-bottom: 70px;
+  
+}
+
+form .input-box input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #333;
+  border: 1.5px solid #C7BEBE;
+  border-bottom-width: 2.5px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  
+}
+.input-box input:focus,
+.input-box input:valid{
+  border-color: #4a6aa7;
+}
+form .policy{
+  display: flex;
+  align-items: center;
+}
+form h3{
+  color: #707070;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.input-box.button input{
+  color: #fff;
+  letter-spacing: 1px;
+  border: none;
+  background: #4a6aa7;
+  cursor: pointer;
+}
+.input-box.button input:hover{
+  background: #4a6aa7;
+}
+
+form .text h3{
+ color: #333;
+ width: 100%;
+ text-align: center;
+}
+form .text h3 a{
+  color: #4a6aa7;
+  text-decoration: none;
+}
+form .text h3 a:hover{
+  text-decoration: underline;
+}
+
+
+/* card section style  */
+
+#cardssection {display: flex;
+  text-align: center;}
+  #cardssection img{width: 200px;
+  margin-left: 90px;
+  margin-right: 90px;
+  background-color: #1F4690;
+  color:aliceblue;
+  
+  }
+  #brtdt
+  { padding-right: 20px;}
