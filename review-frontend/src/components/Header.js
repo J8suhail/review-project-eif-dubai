@@ -10,9 +10,9 @@ function Header()
 <h1> My Movie</h1>
           <nav>
           {/* <Link to='/Dashboard'>Dashboard</Link> */}
-          
-          <Link to=''>All List</Link>
-          <Link to=''>Top 10</Link>
+          <Link to='/' >Home</Link>
+          <Link to='/Detail' >Details</Link>
+                    <Link to='/Review' >Review</Link>
            
           </nav>
           </header> 
