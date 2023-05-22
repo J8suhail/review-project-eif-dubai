@@ -8,11 +8,7 @@ function  Review(){
     return (
         <>
         <Header/>
-        <br/>
-        <br/>
          <ReviewForm/>
-         <br/>
-        <br/>
         <Footer/>
         </>
         
