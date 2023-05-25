@@ -12,9 +12,7 @@ function Home(){
         <>
         <Header/>
         <br/>
-        <ListSec1 imageName={section1Image1} MName="Guardians of the Galaxy Vol. 3" Mdescription="Still reeling from the loss of Gamora, Peter Quill rallies his team to defend the universe and one of their own - a mission that could mean the end of the Guardians if not successful." />
-        <ListSec1 imageName={section1Image1} MName="Guardians of the Galaxy Vol. 3" Mdescription="Still reeling from the loss of Gamora, Peter Quill rallies his team to defend the universe and one of their own - a mission that could mean the end of the Guardians if not successful." />
-        {/* <Section1 imageName={section1Image1} MName="" Mdescription="" Mduration="" Mtype="" Director="" writer="" stars=""/> */}
+        <ListSec1/>
        
 
        

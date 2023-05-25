@@ -1,17 +1,30 @@
 import { Link } from "react-router-dom";
-function  ListSec1(props){
+import axios from "axios";
+import { useEffect, useState } from "react";
+
+
+function  ListSec1(){
+    // make container
+const [allItems, setAllItems] = useState("");
+useEffect(()=>{
+    axios.get("http://localhost:7000/getItems")
+    .then((res)=>{setAllItems(res.data)})
+},[]);
+
     return (
-     
+        <>
+        {
+             allItems && allItems.map((item)=>(
         <div id='MoviesList'>
         <div className="child" id="child1">
                  <div>
-                <img  className="img-responsive" src={props.imageName} />
+                <img  className="img-responsive" src={item.imageLink } />
                 </div>
           <div class="para">
-                <h3>{props.MName}</h3>
+                <h3>{item.name}</h3>
         
               
-                <p>{props.Mdescription}</p>
+                <p>{item.description}</p>
                 <br/>
                 <br/>
                <Link to='/Detail'>  <button> View Details </button></Link>
@@ -23,9 +36,12 @@ function  ListSec1(props){
           </div>      
           </div>
           
-     
-        );
-    }
+          ))
+        }
+                </>
+                );
+            }
+            
     
 export default ListSec1;
     
